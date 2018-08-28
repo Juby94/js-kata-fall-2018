@@ -1,0 +1,27 @@
+#box {
+  width: 50vw;
+  height: 10vw;
+  background-color: coral;
+  animation: flyv_ind 2s ease-in;
+  position: absolute;
+  left: 25vw;
+  text-align: center;
+}
+
+@keyframes flyv_ind {
+  from {
+    top: 100vh;
+  }
+  to {
+    top: 10vw;
+  }
+}
+
+@keyframes ud {
+  from {
+    top: 10vw;
+  }
+  to {
+    top: 100vh;
+  }
+}
