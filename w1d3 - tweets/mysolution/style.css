@@ -1,0 +1,23 @@
+h1 {
+  font-family: fantasy;
+  grid-column: 1/2;
+}
+p {
+  font-family: cursive;
+  color: red;
+  grid-column: 2/3;
+}
+
+body {
+  display: grid;
+  grid-template-columns: repeat(3. 1fr);
+  grid-template-rows: auto;
+}
+
+.tweet {
+  grid-column: 1/2;
+}
+
+.username {
+  grid-column: 2/3;
+}
